@@ -20,7 +20,7 @@ This script uncheck the "Allow the computer to turn off this device to save powe
 Literally just runs `ipconfig /flushdns`.
 
 ### Convert Image to JPG
-This script uses IrfanView to convert any image format to JPG. Should work on most if not all format of images. Change the path if necessary. Just drag and drop image file into the script (open image with script) or setup the script in context menu.
+This script uses IrfanView to convert any image format to JPG. Should work on most if not all format of images. Change the path if necessary. Just drag and drop image file into the script (open image with script) or setup the script in context menu. Nowadays I just recommend [Tichau/FileConverter](https://file-converter.io)
 
 ### Reset Audio Services
 Reset related audio services because I keep having issues with Voicemeeter.
