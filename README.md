@@ -17,13 +17,16 @@ This script uncheck the "Allow the computer to turn off this device to save powe
 > [Credit](https://www.reddit.com/r/PowerShell/comments/lr5iyk/uncheck_allow_the_computer_to_turn_off_this/)
 
 ### Flush DNS
-Literally just runs `ipconfig /flushdns`.
+Literally just runs `ipconfig /flushdns`. I run this automatically daily using Task Scheduler.
 
 ### Convert Image to JPG
 This script uses IrfanView to convert any image format to JPG. Should work on most if not all format of images. Change the path if necessary. Just drag and drop image file into the script (open image with script) or setup the script in context menu. Nowadays I just recommend [Tichau/FileConverter](https://file-converter.io)
 
 ### Reset Audio Services
 Reset related audio services because I keep having issues with Voicemeeter.
+
+### 100GB Limiter
+This script deletes the oldest file(s) on loop in the current directory including files inside subdirectories until the current directory size is 100GB or below. Use this with caution, it will delete files without any prompt!
 
 ## Disclaimer
 This is a personal project, it comes with no guarantee or warranty. You are responsible for whatever happens from using anything from this repository.
